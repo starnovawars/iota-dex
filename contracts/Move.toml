@@ -1,0 +1,11 @@
+[package]
+name = "iota_dex"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui", branch = "main" }
+Iota = { git = "https://github.com/iotaledger/iota-sdk", branch = "rebased" }
+
+[addresses]
+iota_dex = "0x0"
